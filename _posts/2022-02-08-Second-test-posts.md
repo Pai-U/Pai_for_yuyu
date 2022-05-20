@@ -1,11 +1,16 @@
 ---
 layout: post
-title:  "Testing"
-categories: MachineLearning ComputerVision
+title:  "Unsupervised clustering analysis with R"
+categories: R Statistics Retail_Data 
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+This analytical report aims to segment clients' data by their annual income. Once clusterd, we can compare the relation between each cluster and each variable in order to conduct a precise customer analysis. 
 
-```python
+Variables of dataset: 
+*  Income: annual household income of the client
+*   Amount for each product category over the last 2 years
+*   Number of purchases made for each channel and with discount
+
+```R
 # This program prints Hello, world!
 
 print('Hello, world!')
