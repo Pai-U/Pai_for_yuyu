@@ -20,6 +20,6 @@ Statistical methods applied in this report: <br>
 1. Data exploration - Descriptive statistics analysis :<br>
 [Extract]<br>
 
- ![Alt text](assets\boxplot_income_.jpg "boxplot of annual household income of the client")<br>
+ ![Alt text](https://raw.githubusercontent.com/Pai-U/pai-u.github.io/main/assets/boxplot_income_.jpg "boxplot of annual household income of the client" width="200"/)<br>
  
 2. Principal component analysis :
