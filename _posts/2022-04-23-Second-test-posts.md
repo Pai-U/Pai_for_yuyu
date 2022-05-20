@@ -21,10 +21,9 @@ Statistical methods applied in this report: <br>
 1. Data exploration - Descriptive statistics analysis :<br>
 <br>
 2 Extracts of graphics: <br>
--Boxplot of annual household income of the client<br>
+Boxplot of annual household income of the client<br>
 <img alt="boxplot of annual household income of the client" src="https://raw.githubusercontent.com/Pai-U/pai-u.github.io/main/assets/boxplot_income_.jpg" width="500"/><br>
-
--histograms of amount for each product category<br>
+histograms of amount for each product category<br>
 <img src="https://raw.githubusercontent.com/Pai-U/pai-u.github.io/main/assets/His.jpg" width="500"/><br>
 
 2. Matrix of correlation :<br>
