@@ -51,7 +51,7 @@ Cluster 1 : 1290 observations <br>
 Cluster 2 : 547 observations <br>
 Cluster 3 : 379 observations <br>
 
-5. ANOVA for quantitatif and qualitatif <br>
+5. ANOVA for quantitatif and qualitatif varaibles<br>
 Q: Does annual income has a significant impact to the result of Clusering ? <br>
 Here is the Income boxplot by clusters<br>
 <img src="https://raw.githubusercontent.com/Pai-U/pai-u.github.io/main/assets/cluster_by_income.jpg" width="500"/><br>
@@ -61,7 +61,7 @@ A: YES. <br>Since the p-value of the anova test is below the significance level 
 The graphs above indicate that the residuals follow the normal distribution. <br>
 Furthermore, the points on the QQ graphs follow approximately the straight line and most of them fall within the confidence bands, which also indicates that the residuals follow approximately a normal distribution. Therefore, we can conclude that the annual revenue has an impact on the clusters.<br>
 
-5. K² for qualitatif and qualitatif <br>
+5. K² for qualitatif and qualitatif varaibles<br>
 Q: Does the number of purchases made with discount has a significant impact to the result of Clusering ? <br>
 In order to confirm the correlation between the identified groups and the number of discounted purchases, we applied the chi-square. <br>
 we applied the chi-square method. We visualized the frequency distribution of discounted purchases by cluster and calculated the Cramer's V and calculated the Cramer's V and Bayes Factor values to determine the strength of this correlation.<br>
