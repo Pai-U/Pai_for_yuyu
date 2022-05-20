@@ -41,7 +41,7 @@ We have now reduced the dimensions in a simple way on 3 components (thus 3 new v
 
 4. K-means Clustering <br>
 <img src="https://raw.githubusercontent.com/Pai-U/pai-u.github.io/main/assets/kmeans1.jpg" width="500"/><br>
-This visualize the dispersion of data points from 2 clusters to 4 clusters. It seems 3 clusters would be significant. 
+This visualize the dispersion of data points from 2 clusters to 4 clusters. It seems 3 clusters would be significant. <br>
 <img src="https://raw.githubusercontent.com/Pai-U/pai-u.github.io/main/assets/gap.jpg" width="500"/><br>
 The optimal number of clusters by gap statistic method shows the 3 clusters would be significant. <br>
 A 3D visulization of 3 clusters:<br>
