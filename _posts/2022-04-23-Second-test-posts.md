@@ -3,7 +3,7 @@ layout: post
 title:  "Unsupervised clustering analysis with R"
 categories: R Statistics Retail_Data 
 ---
-This analytical report aims to segment clients' data by their annual income. Then conduct a precise customer analysis by comparing the relation between each cluster and each variable. <br>
+This analytical report aims to segment clients' data by K-means unsupervised clustering. Then conduct a precise customer analysis by comparing the relation between each cluster and each variable. <br>
 
 <a href="https://github.com/Pai-U/Projet_PAI/tree/main/Cluserting%20Clients%20segmentation">Codes and datasets available on Github</a> <br>
 
