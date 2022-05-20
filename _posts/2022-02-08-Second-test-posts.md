@@ -5,14 +5,12 @@ categories: R Statistics Retail_Data
 ---
 This analytical report aims to segment clients' data by their annual income. Once clusterd, we can compare the relation between each cluster and each variable in order to conduct a precise customer analysis. <br>
 
-
 <a href="https://github.com/Pai-U/Projet_PAI/tree/main/Cluserting%20Clients%20segmentation">Codes and datasets available on Github</a> <br>
 
 Variables of dataset: <br>
 *  Income: annual household income of the client<br>
 *  Amount for each product category over the last 2 years<br>
 *  Number of purchases made for each channel and with discount<br>
-
 
 Statistical methods applied in this report: <br>
 * Principal component analysis <br>
