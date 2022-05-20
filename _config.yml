@@ -1,6 +1,38 @@
-title: Yu-Yu Pai
-logo: /assets/img/profile.jpeg
-description: Welcome to my website.
-show_downloads: false
-#google_analytics: your tracking ID
-theme: jekyll-theme-minimal
+title: Yu-Yu's page
+author: Hao
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+
+# Build settings
+# remote_theme: samarsault/plainwhite-jekyll
+
+show_excerpts: true
+
+plainwhite:
+  name: Yu-Yu Pai - 白宇玉
+  tagline: Data Analyst
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
+  search: true # set to true to enable searchbar
+  dark_mode: true # set to true to add dark mode toggle
+  portfolio_image: "assets/101865290.png" # path the image to display
+  html_lang: "en" # set the lang attribute of the <html> tag for the pages.
+  # navigation:
+  #   - title: Résumé
+  #     url: #"/resume"
+  condensed_mobile:
+    - home
+    - post
+    - page
+  # generate social links in footer
+  social_links:
+    github:  Pai-U
+    linkedIn: in/yuyupai/
+    email: yuyu.pai@hotmail.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+

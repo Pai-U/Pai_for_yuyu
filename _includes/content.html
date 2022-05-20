@@ -1,0 +1,124 @@
+<style>
+  .content {
+    max-width: 600px;
+    margin: auto;
+  }
+  </style>
+  <body>
+  <div class="content">
+      <h1>Welcome</h1>
+      <p> 
+        <!-- style="width:620px;"> -->
+       I am Yu-Yu Pai at <a href="https://www.airliquide.com/"> Navya</a> since October 2019.
+      </p>
+
+      <br>
+      <div id="table-of-contents">
+        <h2>Table of Contents</h2>
+        <div id="text-table-of-contents">
+        <ul>
+       
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#posts">Posts</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+        </div>
+
+        <br>
+        <div id="outline-container-orgd58b0f6" class="outline-2">
+        <h2 id="Education">Education</h2>
+        <div class="outline-text-2" id="text-orgd58b0f6">
+        <p>
+          &#x2022; Master. 
+          <br> <em>school</em>, 2022  [<a href="">upcoming</a>]
+        </p>
+
+        </div>
+        </div>
+
+        <br>
+        <div id="outline-container-orgc54df50" class="outline-2">
+        <h2 id="work">Work</h2>
+        <div class="outline-text-2" id="text-orgc54df50">
+          <p>
+            &#x2022; Project.
+            <br> <em>Air Liquide</em>, 2021 [<a href="">slides</a>]
+          </p>
+
+        </div>
+        </div>
+        
+        {%- if site.posts.size > 0 -%}
+        <br>
+        <div id="outline-container-orgbc2bbb7" class="outline-2">
+        <h2 id="post">Posts</h2>
+          <ul class="posts">
+            <li class="posts-labelgroup" id="posts-labelgroup">
+              <h1 id="posts-label">posts</h1>
+              {% if site.plainwhite.search %}
+              <div class="search-container">
+                <div class="search-section">
+                  <i class="icon-search"></i>
+                  <input type="text" name="search" id="searchbar" autocomplete="off" aria-label="search in posts">
+                </div>
+                <div class="search-results" id="search-results" data-placeholder="No Results" style="display: none;"></div>
+              </div>
+              {% endif %}
+            </li>
+
+            {%- for post in site.posts -%}
+              <li>
+                {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  <h2 class="post-title">{{ post.title | escape }}</h2>
+                </a>
+                <div class="post-meta">
+                  <div class="post-date">
+                    <i class="icon-calendar"></i>
+                    {{ post.date | date: date_format }}
+                  </div>
+                  {%- if post.categories.size > 0-%}
+                  <ul class="post-categories">
+                    {%- for tag in post.categories -%}
+                    <li>{{ tag }}</li>
+                    {%- endfor -%}
+                  </ul>
+                  {%- endif -%}
+                </div>
+                <div class="post">
+                  {%- if site.show_excerpts -%}
+                    {{ post.excerpt }}
+                  {%- endif -%}
+                </div>
+              </li>
+            {%- endfor -%}
+          </ul>
+
+          <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
+            <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+          </svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
+        </div>
+        {%- endif -%}
+
+        <br>
+        <div id="outline-container-orgbc2ddb7" class="outline-2">
+        <h2 id="contact">Contact</h2>
+            <tr>
+              <td height="55" style="font-family:Helvetica, Arial, sans-serif; font-size:18px; font-style:bold;">
+                <strong>Yu-Yu Pai</strong>
+                <br>
+                <em style="font-size:17px; font-weight:400;">Data Analyst</em>
+              </td>
+            </tr>
+            <tr>
+              <p><td height="35" style="font-family:Helvetica, Arial, sans-serif; font-size:16px; color:#4d4d4e;">
+                7 Place de la Défense | Courbevoie, Hauts-de-Seine, 92400, France
+              </td></p>
+            </tr>
+        </div>
+      
+  </div>
+ 
+  </body>
